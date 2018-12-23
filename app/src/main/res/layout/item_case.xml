@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+    <android.support.v7.widget.CardView
+            android:minHeight="60dp"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <TextView
+                    android:id="@+id/nameLabel"
+                    android:layout_margin="10dp"
+                    android:text="@string/case_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            <TextView
+                    android:id="@+id/name"
+                    android:layout_marginLeft="30dp"
+                    android:layout_toRightOf="@id/nameLabel"
+                    android:layout_alignTop="@id/nameLabel"
+                    android:layout_alignBottom="@id/nameLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:id="@+id/percentLabel"
+                    android:layout_margin="10dp"
+                    android:layout_below="@+id/nameLabel"
+                    android:text="@string/case_percent_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            <TextView
+                    android:id="@+id/percent"
+                    android:layout_marginLeft="30dp"
+                    android:layout_toRightOf="@id/percentLabel"
+                    android:layout_alignTop="@id/percentLabel"
+                    android:layout_alignBottom="@id/percentLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</android.support.constraint.ConstraintLayout>

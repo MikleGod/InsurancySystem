@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.CardView
+            android:layout_margin="10dp"
+            app:cardUseCompatPadding="true"
+            app:cardElevation="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <RelativeLayout
+                android:minHeight="80dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:id="@+id/category"
+                    android:text="ОАО Привет Мир"
+                    android:layout_alignParentTop="true"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:layout_margin="10dp"
+                    android:textSize="25sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:id="@+id/date"
+                    android:text="82374uhbdfs828hhfsjh"
+                    android:gravity="center"
+                    android:layout_below="@+id/category"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+</android.support.constraint.ConstraintLayout>

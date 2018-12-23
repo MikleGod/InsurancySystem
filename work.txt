@@ -1,0 +1,16 @@
+Сделать
+    Диалоги:
+        AddPolicyByCategory,
+        AddPaymentByPolicy,
+        AddPaymentByCase,
+        ApprovePayment
+    Валидацию:
+        AddPolicyByCategory,
+        AddPaymentByPolicy,
+        AddPaymentByCase,
+        ApprovePayment
+    Работу с базой:
+        AddPolicyByCategory,
+        AddPaymentByPolicy,
+        AddPaymentByCase,
+        ApprovePayment

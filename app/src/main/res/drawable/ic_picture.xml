@@ -1,0 +1,18 @@
+<vector android:height="86dp" android:viewportHeight="480"
+    android:viewportWidth="480" android:width="86dp" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#FF000000" android:pathData="m432,0h-384c-4.418,0 -8,3.582 -8,8v464c0,4.418 3.582,8 8,8h384c4.418,0 8,-3.582 8,-8v-464c0,-4.418 -3.582,-8 -8,-8zM424,464h-368v-448h368zM424,464"/>
+    <path android:fillColor="#FF000000" android:pathData="m80,400h320c4.418,0 8,-3.582 8,-8v-352c0,-4.418 -3.582,-8 -8,-8h-320c-4.418,0 -8,3.582 -8,8v352c0,4.418 3.582,8 8,8zM88,48h304v336h-304zM88,48"/>
+    <path android:fillColor="#FF000000" android:pathData="m120,64h16v16h-16zM120,64"/>
+    <path android:fillColor="#FF000000" android:pathData="m136,80h16v16h-16zM136,80"/>
+    <path android:fillColor="#FF000000" android:pathData="m120,96h16v16h-16zM120,96"/>
+    <path android:fillColor="#FF000000" android:pathData="m104,80h16v16h-16zM104,80"/>
+    <path android:fillColor="#FF000000" android:pathData="m136,160h16v16h-16zM136,160"/>
+    <path android:fillColor="#FF000000" android:pathData="m152,176h16v16h-16zM152,176"/>
+    <path android:fillColor="#FF000000" android:pathData="m136,192h16v16h-16zM136,192"/>
+    <path android:fillColor="#FF000000" android:pathData="m120,176h16v16h-16zM120,176"/>
+    <path android:fillColor="#FF000000" android:pathData="m344,104h16v16h-16zM344,104"/>
+    <path android:fillColor="#FF000000" android:pathData="m360,120h16v16h-16zM360,120"/>
+    <path android:fillColor="#FF000000" android:pathData="m344,136h16v16h-16zM344,136"/>
+    <path android:fillColor="#FF000000" android:pathData="m328,120h16v16h-16zM328,120"/>
+    <path android:fillColor="#FF000000" android:pathData="m272,208.359v-2.457c15,-10.477 23.953,-27.605 24,-45.902v-16c0,-30.93 -25.07,-56 -56,-56s-56,25.07 -56,56v16c0.047,18.297 9,35.426 24,45.902v2.457c-45.289,4.191 -79.945,42.16 -80,87.641v64c0,4.418 3.582,8 8,8h208c4.418,0 8,-3.582 8,-8v-64c-0.055,-45.48 -34.711,-83.449 -80,-87.641zM336,352h-192v-56c0.043,-39.746 32.254,-71.957 72,-72 4.418,0 8,-3.582 8,-8v-14.48c-0.004,-2.855 -1.527,-5.492 -4,-6.918 -12.344,-7.16 -19.961,-20.332 -20,-34.602v-16c0,-22.09 17.91,-40 40,-40s40,17.91 40,40v16c-0.039,14.27 -7.656,27.441 -20,34.602 -2.473,1.426 -3.996,4.063 -4,6.918v14.48c0,4.418 3.582,8 8,8 39.746,0.043 71.957,32.254 72,72zM336,352"/>
+</vector>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+            app:layout_constraintBottom_toTopOf="@+id/line_1"
+            android:minHeight="60dp"
+            android:text="Создать страховой случай"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:textColor="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    <View
+            android:id="@+id/line_1"
+            app:layout_constraintBottom_toTopOf="@+id/nameInput"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@color/colorAccent"
+            android:layout_height="2dp"
+            android:layout_width="match_parent"/>
+
+    <android.support.design.widget.TextInputLayout
+            android:layout_margin="10dp"
+            android:id="@+id/percentInput"
+            app:layout_constraintBottom_toTopOf="@+id/saveCase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <EditText
+                android:id="@+id/percent"
+                android:inputType="numberDecimal"
+                android:hint="Проценты по платежу"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+            android:id="@+id/nameInput"
+            app:layout_constraintBottom_toTopOf="@id/percentInput"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <EditText
+                android:id="@+id/name"
+                android:hint="Название"
+                android:inputType="text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+            android:id="@+id/saveCase"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:text="@string/save"
+            android:textColor="@color/white"
+            android:background="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+</android.support.constraint.ConstraintLayout>
